@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             downloads = employee.getString("downloads");
 
             // set the name and salary
-            appName.setText("Name:"+name);
-            downloadsTextView.setText("Downloads:"+downloads+"Users");
+            appName.setText("Name:" + name);
+            downloadsTextView.setText("Downloads:" + downloads);
 
         } catch (JSONException e) {
             e.printStackTrace();
